@@ -1,0 +1,4 @@
+ALTER TABLE trans_master ADD user_id INT(11) DEFAULT 0 NOT NULL;
+ALTER TABLE trans_master ADD create_date DATETIME DEFAULT NULL;
+ALTER TABLE trans_master ADD update_date DATETIME DEFAULT NULL;
+ALTER TABLE trans_master ADD process VARCHAR(256) DEFAULT NULL;

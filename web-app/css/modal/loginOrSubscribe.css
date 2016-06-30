@@ -1,0 +1,316 @@
+
+
+ 
+
+
+br { clear: left; }  
+
+.textbox { border: 1px solid #999999;  border-top-color: #CCCCCC;  border-left-color: #CCCCCC; color: #333333;  font: 90% Verdana, Helvetica, Arial, sans-serif; font-size: 11px; }
+
+h1 { font-size: 17px; }
+
+
+
+/* 'Login' Button */
+
+
+#notification_error { color: red; height: auto; padding:0px 0px 4px 25px; text-align: left; }
+
+#login_response {
+    overflow: auto;
+    margin-left: 24px;
+    margin-bottom: 7px;
+    color: red;
+}
+ 
+#ajax_loading { display: none; font-size: 12px; font-family: Tahoma; }
+
+#logged_in { padding: 0px; margin: 23px 0 100px 20px; padding: 5px; width: 300px; }
+
+#status { margin-top: 20px; width: 310px; }
+
+.loginBtton{
+    background:#993235;
+    border: 0 solid #339CDF;
+    box-shadow: 1px 1px 2px 2px #ABABAB;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    margin: 0 12px 0 0;
+    padding: 7px 10px 8px;
+    width: auto;
+    border-radius: 3px 3px 3px 3px;
+	font-weight:bold;
+
+    
+}
+.loginTopHeader
+{
+padding:0px 0px 0px 25px; font-size:14px; color:#394159;
+}
+
+.loginEachContainer{
+
+position:relative;
+top:0px;
+left:0px;
+width:100%;
+height:35px;
+margin:0px 0px 0px 0px;
+padding:1px 0px 1px 0px;
+color:#666666;
+clear:both;
+}
+
+.loginEachContainer label { width: 80px; padding-left: 20px; margin: 5px; float: left; text-align: left; color: #333333;
+    font-size: 14px; }  
+
+
+/*
+ * SimpleModal Basic Modal Dialog
+ * http://www.ericmmartin.com/projects/simplemodal/
+ * http://code.google.com/p/simplemodal/
+ *
+ * Copyright (c) 2008 Eric Martin - http://ericmmartin.com
+ *
+ * Licensed under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *
+ * Revision: $Id: basic.css 162 2008-12-01 23:36:58Z emartin24 $
+ *
+ */
+
+/* Overlay */
+#simplemodal-overlay {background-color:#aaaaaa; cursor:wait;}
+
+/* Container */
+#simplemodal-container {width:380px; background-color:#fff; border:5px solid #394A59;
+				border-radius:20px 0 20px 0;
+		-moz-border-radius:20px 0 20px 0;
+		-webkit-border-radius:20px 0 20px 0;
+    height: 280px;
+}
+#simplemodal-container a.modalCloseImg {background:url('../images/x.png') no-repeat; width:25px; height:29px; display:inline; z-index:3200; position:absolute; top:-15px; left:-18px; cursor:pointer;}
+#simplemodal-container #basicModalContent {padding:8px;}
+
+
+
+.subscriptionContent
+{
+	position:relative;
+	float:left;
+	top:0px;
+	left:0px;
+	width:1000px;
+	margin:auto;
+}
+
+.subscriptionContent .eHeading
+{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:1000px;
+	height:50px
+}
+
+.subscriptionContent .eHeading_left
+
+{
+	position:relative;
+	float:left;
+	top:0px;
+	left:0px;
+	width:10px;
+	height:50px;
+	background-image:url(../images/mainContent_mainHeading_left1.png);
+	background-repeat:no-repeat;
+}
+ 
+
+
+.subscriptionContent .eHeading_middle
+{
+	position:relative;
+	float:left;
+	top:0px;
+	left:0px;
+	width:980px;
+	height:50px;
+	color:#333333;
+	/*background-image:url(../images/mainContent_mainHeading_middle.png);
+	background-repeat:repeat-x;*/
+}
+.subscriptionContent .eHeading_middle .eHeading_middleLeft
+{
+	position:relative;
+	float:left;
+	top:0px;
+	left:0px;
+	width:430px;
+	height:50px;
+	color:#333333;
+	
+}
+.subscriptionContent .eHeading_middle .eHeading_middleRight
+{
+	position:relative;
+	float:left;
+	top:0px;
+	left:0px;
+	width:300px;
+	height:50px;
+	color:#333333;
+	
+}
+
+.subscriptionContent .eHeading_middle h1
+{
+padding:10px 0px 0px 0px;
+color:#333333;
+font-size:18px;
+}
+
+
+.subscriptionContent .eHeading_right
+{
+	position:relative;
+	float:left;
+	top:0px;
+	left:0px;
+	width:10px;
+	height:50px;
+	background-image:url(../images/mainContent_mainHeading_right1.png);
+	background-repeat:no-repeat;
+}
+
+.subscriptionContent .tBody
+{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:998px;
+	margin:auto;
+	background-color:#e8e7e7;
+	border-top:1px solid #bfbebe;
+	border-left:1px solid #bfbebe;
+	border-right:1px solid #bfbebe;
+	padding:0px 0px 0px 0px;
+}
+.subscriptionContent .tBody_inner
+{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:980px;
+	padding:20px 0px 10px 10px;
+}
+.subscriptionContent .tBodyFooter
+{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:1000px;
+	height:9px;
+	margin:auto;
+	
+}
+
+.subscriptionContent .tBodyFooter_left
+{
+	position:relative;
+	float:left;
+	top:0px;
+	left:0px;
+	width:9px;
+	height:9px;
+	background-image:url(../images/mainContent_mainBodyFooter_left.png);
+	background-repeat:no-repeat;
+}
+.subscriptionContent .tBodyFooter_middle
+{
+	position:relative;
+	float:left;
+	top:0px;
+	left:0px;
+	width:982px;
+	height:9px;
+	background-image:url(../images/mainContent_mainBodyFooter_middle.png);
+	background-repeat:repeat-x;
+}
+.subscriptionContent .tBodyFooter_right
+{
+	position:relative;
+	float:left;
+	top:0px;
+	left:0px;
+	width:9px;
+	height:9px;
+	background-image:url(../images/mainContent_mainBodyFooter_right.png);
+	background-repeat:no-repeat;
+}
+
+.subscriptionContent .sControllerContent
+{
+position:relative;
+float:left;
+top:0px;
+left:0px;
+width:480px;
+}
+
+.subscriptionContent .sControllerContent .sControllerContentEach
+{
+position:relative;
+top:0px;
+left:0px;
+width:440px;
+padding:0px 0px 0px 0px;
+margin:0px 0px 4px 0px;
+
+}
+
+.subscriptionContent .sControllerContent .sControllerContentEach .left
+{
+position:relative;
+float:left;
+top:0px;
+left:0px;
+width:120px;
+
+}
+
+.subscriptionContent .sControllerContent .sControllerContentEach .right
+{
+position:relative;
+float:left;
+top:0px;
+left:0px;
+width:300px;
+
+margin:0px 0px 0px 5px;
+}
+
+.subscriptionContent .sControllerContentEach .inputbox1
+{
+width:280px;
+border:1px solid #cccccc;
+color:#666666;
+background-color:#ffffff;
+height:22px;
+}
+
+.subscriptionContent .sControllerContentEach .inputbox2
+{
+width:180px;
+border:1px solid #cccccc;
+color:#666666;
+background-color:#ffffff;
+height:22px;
+}
+
+.loginEachContainer label.error {
+    display: block;
+    width: 230px !important;
+    margin-left: 90px;
+}

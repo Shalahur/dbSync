@@ -1,0 +1,1 @@
+INSERT INTO db_version(version,date) values(6, NOW());

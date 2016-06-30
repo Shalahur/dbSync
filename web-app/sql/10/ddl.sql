@@ -1,0 +1,9 @@
+ALTER TABLE bank_statement_import_final ADD total_debit double NOT NULL;
+ALTER TABLE bank_statement_import_final ADD total_credit double NOT NULL;
+ALTER TABLE bank_statement_import_final ADD number_of_transaction int(20) NOT NULL;
+DROP TRIGGER IF EXISTS after_bank_statement_import_final_insert;
+TriggerName,after_bank_statement_import_final_insert;
+DROP TRIGGER IF EXISTS after_bank_statement_import_final_update;
+TriggerName,after_bank_statement_import_final_update;
+DROP TRIGGER IF EXISTS after_bank_statement_import_final_delete;
+TriggerName,after_bank_statement_import_final_delete;
